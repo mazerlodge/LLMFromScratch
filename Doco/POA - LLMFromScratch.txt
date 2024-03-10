@@ -1,0 +1,11 @@
+POA - LLM From Scratch
+
+03/09
+	- Initial version of code 
+	
+NEXT: 
+	- Continue at Listing 2.2 
+	
+Reference:
+https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-5/68
+
