@@ -33,15 +33,26 @@ print(cleanResult2)
 with open("./Data/theVerdict.txt", "r", encoding="utf-8") as f:
 	rawText = f.read()
 print("Total number of characters in raw text file:", len(rawText))
-print(rawText[:42])
+print("Sample first 42 characters: %s" % rawText[:42])
 
 # Tokenize 20kb text sample 
 cleanSample = re.split(r'([,.?_!"()\']|--|\s)', rawText)
 docTextTokens = [element.strip() for element in cleanSample if element.strip()]
-print(len(docTextTokens))
+print("Number of tokens %d" % len(docTextTokens))
+print("Sample of 30 tokens:")
 print(docTextTokens[:30])
 
 # Sec 2.3 Converting tokens into token IDs
 uniqueWords = sorted(list(set(docTextTokens)))
 uniqueWordsSize = len(uniqueWords)
-print(uniqueWordsSize) 
+print("Count unique words: %d" % uniqueWordsSize) 
+
+# Listing 2.2
+# Creating a vocabulary 
+vocab = {token:integer for integer, token in enumerate(uniqueWords)}
+for i, item in enumerate(vocab.items()):
+	#print("%d = %s " % (i, item)) 
+	print(item)
+	if i > 50:
+		break
+

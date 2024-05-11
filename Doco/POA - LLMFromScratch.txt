@@ -2,9 +2,13 @@ POA - LLM From Scratch
 
 03/09
 	- Initial version of code 
+
+05/11
+	- 
 	
 NEXT: 
-	- Continue at Listing 2.2 
+	- Continue at Listing 2.3
+		Description: Let's implement a complete tokenizer class in Python with an encode method that splits text into tokens and carries out the string-to-integer mapping to produce token IDs via the vocabulary.
 	
 Reference:
 https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-5/68
