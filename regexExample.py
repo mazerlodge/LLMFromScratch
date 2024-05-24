@@ -1,5 +1,6 @@
 
 import re
+import SimpleTokenizerV1
 
 text = "Hello world. This, is a test."
 
@@ -56,3 +57,20 @@ for i, item in enumerate(vocab.items()):
 	if i > 50:
 		break
 
+# Listing after 2.3
+tokenizer = SimpleTokenizerV1.SimpleTokenizerV1(vocab)
+ 
+# Test with a line found in the data file used to create the vocabulary 
+text = """"It's the last he painted, you know," Mrs. Gisburn said with pardonable pride."""
+ids = tokenizer.encode(text)
+print(ids)
+
+# Decode the encoded sample text 
+print(tokenizer.decode(ids))
+
+# Break it.
+try:
+	text = "Hello, do you like tea?"
+	tokenizer.encode(text)
+except:
+	print("There was an error, known to be word(s) not in vocab.")

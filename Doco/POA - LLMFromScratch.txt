@@ -4,12 +4,19 @@ POA - LLM From Scratch
 	- Initial version of code 
 
 05/11
-	- 
+	- Small update moving project forward.
+
+05/24
+	- Listing 2.3 Implementing a simple text tokenizer 
+	- Splits text into tokens and carries out the string-to-integer mapping to produce token IDs via the vocabulary
+	- Added invocation in regexExample.py 
 	
 NEXT: 
-	- Continue at Listing 2.3
-		Description: Let's implement a complete tokenizer class in Python with an encode method that splits text into tokens and carries out the string-to-integer mapping to produce token IDs via the vocabulary.
-	
+	- Continue at Section 2.4
+		Description: Adding special context tokens
+		In this section, we will modify this tokenizer to handle unknown words.
+
+
 Reference:
-https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-6/75
+https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-6/94
 
