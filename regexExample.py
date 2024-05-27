@@ -73,4 +73,17 @@ try:
 	text = "Hello, do you like tea?"
 	tokenizer.encode(text)
 except:
-	print("There was an error, known to be word(s) not in vocab.")
+	print("The test of a missing word in the vocab was caught here.")
+	
+
+#Add unknown placeholder token and end of text marker token to the vocab
+uniqueWords = sorted(list(set(docTextTokens)))
+uniqueWords.extend(["<|endoftext|>", "<|unk|>"])
+vocab = {token:integer for integer,token in enumerate(uniqueWords)}
+print("With placeholders...")
+print(len(vocab.items()))
+
+print ("show last 5 entries in vocab")
+for i, item in enumerate(list(vocab.items())[-5:]):
+	print(item)
+

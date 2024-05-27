@@ -10,13 +10,15 @@ POA - LLM From Scratch
 	- Listing 2.3 Implementing a simple text tokenizer 
 	- Splits text into tokens and carries out the string-to-integer mapping to produce token IDs via the vocabulary
 	- Added invocation in regexExample.py 
+
+05/27
+	- Added |unk| and |endoftext| tokens 
+	
 	
 NEXT: 
-	- Continue at Section 2.4
-		Description: Adding special context tokens
-		In this section, we will modify this tokenizer to handle unknown words.
+	- Continue at Listing 2.4
+		Description: A tokenizer that handles unknown words
 
 
 Reference:
-https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-6/94
-
+https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-6/109
