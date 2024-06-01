@@ -16,6 +16,7 @@ POA - LLM From Scratch
 	
 06/01
 	- Cleaned up, split out, and commented source code files
+	- Added v2 tokenizer (adds unk and eof tokens) and assoc Run... src file 
 	
 NEXT: 
 	- Continue at Listing 2.4

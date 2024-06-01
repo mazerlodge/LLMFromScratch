@@ -10,7 +10,9 @@ class SimpleTokenizerV1:
 
 	def encode(self, text): 
 		preprocessed = re.split(r'([,.?_!"()\']|--|\s)', text)
-		preprocessed = [item.strip() for item in preprocessed if item.strip()]
+		preprocessed = [
+			item.strip() for item in preprocessed if item.strip()
+		]
 		ids = [self.str_to_int[s] for s in preprocessed]
 		return ids 
 	
