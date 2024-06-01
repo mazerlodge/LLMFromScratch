@@ -19,9 +19,9 @@ POA - LLM From Scratch
 	- Added v2 tokenizer (adds unk and eof tokens) and assoc Run... src file 
 	
 NEXT: 
-	- Continue at Listing 2.4
+	- Continue at Listing 2.5
 		Description: A tokenizer that handles unknown words
 
 
 Reference:
-https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-6/109
+https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-7/171
