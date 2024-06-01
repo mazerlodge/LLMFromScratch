@@ -14,6 +14,8 @@ POA - LLM From Scratch
 05/27
 	- Added |unk| and |endoftext| tokens 
 	
+06/01
+	- Cleaned up, split out, and commented source code files
 	
 NEXT: 
 	- Continue at Listing 2.4
