@@ -17,11 +17,26 @@ POA - LLM From Scratch
 06/01
 	- Cleaned up, split out, and commented source code files
 	- Added v2 tokenizer (adds unk and eof tokens) and assoc Run... src file 
+
+06/25
+	- Did section 2.5, a more sophisticated tokenization scheme 
+		based on a concept called byte pair encoding (BPE)
+	- installed and used Tiktoken lib from openai via github)
 	
 NEXT: 
-	- Continue at Listing 2.5
-		Description: A tokenizer that handles unknown words
+	- Continue at Listing 2.6
+		Description: 2.6 Data sampling with a sliding window
 
 
 Reference:
 https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-7/171
+
+
+Dependencies: 
+TiToken from Since implementing BPE can be relatively complicated, we will use an existing Python open-source library called tiktoken (https://github.com/openai/tiktoken)
+Installed via: 
+	pip install tiktoken 
+
+After install can verify by checking version.  See my source code file TestTiToken.py
+
+
