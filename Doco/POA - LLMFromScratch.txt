@@ -23,6 +23,9 @@ POA - LLM From Scratch
 		based on a concept called byte pair encoding (BPE)
 	- installed and used Tiktoken lib from openai via github)
 	
+07/05
+	- Bought book using 4th of july sale (needed to access appendix A)
+		
 NEXT: 
 	- Continue at Listing 2.6
 		Description: 2.6 Data sampling with a sliding window
