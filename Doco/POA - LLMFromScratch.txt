@@ -25,6 +25,11 @@ POA - LLM From Scratch
 	
 07/05
 	- Bought book using 4th of july sale (needed to access appendix A)
+	
+07/27
+	- Updated python version and tiktoken, updated python -> python3 symbolic link
+	- Retested tiktoken, tried out various word->token encodings 
+	- Updated shortcut in 'Reference:' section below.
 		
 NEXT: 
 	- Continue at Listing 2.6
@@ -32,7 +37,7 @@ NEXT:
 
 
 Reference:
-https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-7/171
+https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-8/157
 
 
 Dependencies: 
