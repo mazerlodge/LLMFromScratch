@@ -30,6 +30,7 @@ POA - LLM From Scratch
 	- Updated python version and tiktoken, updated python -> python3 symbolic link
 	- Retested tiktoken, tried out various word->token encodings 
 	- Updated shortcut in 'Reference:' section below.
+	- Renamed source files to ref section and order they were created
 		
 NEXT: 
 	- Before starting anything, check working copy status & pull latest from GitHub
