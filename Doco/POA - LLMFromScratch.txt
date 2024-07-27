@@ -32,7 +32,8 @@ POA - LLM From Scratch
 	- Updated shortcut in 'Reference:' section below.
 		
 NEXT: 
-	- Continue at Listing 2.6
+	- Before starting anything, pull latest from GitHub
+	- Continue at Reference link (below)
 		Description: 2.6 Data sampling with a sliding window
 
 
