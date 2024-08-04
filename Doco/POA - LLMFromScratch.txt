@@ -32,17 +32,23 @@ POA - LLM From Scratch
 	- Updated shortcut in 'Reference:' section below.
 	- Renamed source files to ref section and order they were created
 		
-08/30 
+08/03 
 	- Fixed torch / python language version selection via bbedit and shell profiles		
+
+08/04
+	- Added Sec260TestDataLoader.py
 		
 NEXT: 
-	- Before starting anything, check working copy status & pull latest from GitHub
+	- *** Before starting anything, check working copy status & pull latest from GitHub
+	
+	- Read through Appendix A, background on pytorch 
+	
 	- Continue at Reference link (below)
-		Description: 2.6 Data sampling with a sliding window
+		Description: 2.8 Encoding Word Positions
 
 
 Reference:
-https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-8/157
+https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-8/234
 
 BBEdit and python and profiles article: 
 https://www.barebones.com/support/bbedit/zshenv.html

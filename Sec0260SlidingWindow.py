@@ -8,7 +8,7 @@ with open("./Data/theVerdict.txt", "r", encoding="utf-8") as f:
     raw_text = f.read()
  
 enc_text = tokenizer.encode(raw_text)
-print(len(enc_text))
+print("Length of encoded text = ", len(enc_text))
 
 # Get a sample to use in demo of training predictions
 enc_sample = enc_text[50:]
