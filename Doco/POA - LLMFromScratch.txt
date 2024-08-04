@@ -32,6 +32,9 @@ POA - LLM From Scratch
 	- Updated shortcut in 'Reference:' section below.
 	- Renamed source files to ref section and order they were created
 		
+08/30 
+	- Fixed torch / python language version selection via bbedit and shell profiles		
+		
 NEXT: 
 	- Before starting anything, check working copy status & pull latest from GitHub
 	- Continue at Reference link (below)
@@ -40,6 +43,9 @@ NEXT:
 
 Reference:
 https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-8/157
+
+BBEdit and python and profiles article: 
+https://www.barebones.com/support/bbedit/zshenv.html
 
 
 Dependencies: 
