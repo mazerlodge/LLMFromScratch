@@ -37,18 +37,29 @@ POA - LLM From Scratch
 
 08/04
 	- Added Sec260TestDataLoader.py
+
+=== 2025 ===
+02/02
+	- Added Sec280EncWordPosition.py
+	- Created virtual env w/ torch and tiktoken installed (activate instructions are below) 
+	- Updated online book to latest version 
 		
 NEXT: 
 	- *** Before starting anything, check working copy status & pull latest from GitHub
-	
-	- Read through Appendix A, background on pytorch 
-	
+	- *** Before starting anything, activate virtual env, see below 
+
 	- Continue at Reference link (below)
-		Description: 2.8 Encoding Word Positions
+		Description: 3.0 Coding attention mechanisms
 
 
 Reference:
-https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-2/v-8/234
+https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-3/
+
+NOTE: 
+	To activate virtual env use: 
+		mazerlodge@TheoVI LLMFromScratch % source ./bin/activate
+
+	To run current code file in VS Code on mac Fn + F5
 
 BBEdit and python and profiles article: 
 https://www.barebones.com/support/bbedit/zshenv.html
