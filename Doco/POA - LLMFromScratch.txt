@@ -43,6 +43,9 @@ POA - LLM From Scratch
 	- Added Sec280EncWordPosition.py
 	- Created virtual env w/ torch and tiktoken installed (activate instructions are below) 
 	- Updated online book to latest version 
+
+02/28
+	- Read Ch 3 up to 3.4.2 Implementing a compact self-attention Python class
 		
 NEXT: 
 	- *** Before starting anything, check working copy status & pull latest from GitHub
