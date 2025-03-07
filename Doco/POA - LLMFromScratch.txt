@@ -46,8 +46,14 @@ POA - LLM From Scratch
 
 02/28
 	- Read Ch 3 up to 3.4.2 Implementing a compact self-attention Python class
-		
+
+03/07
+	- Added Self Attention class code from Sec 3.4.2 
+	- Attempted run on win using activate, but enviro seems to be mac/bash only. 
+
+
 NEXT: 
+-------
 	- *** Before starting anything, check working copy status & pull latest from GitHub
 	- *** Before starting anything, activate virtual env, see below 
 
