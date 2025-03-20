@@ -51,6 +51,8 @@ POA - LLM From Scratch
 	- Added Self Attention class code from Sec 3.4.2 
 	- Attempted run on win using activate, but enviro seems to be mac/bash only. 
 
+3/20
+	- Test connectivity from work 
 
 NEXT: 
 -------
