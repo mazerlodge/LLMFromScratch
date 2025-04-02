@@ -57,17 +57,17 @@ POA - LLM From Scratch
 NEXT: 
 -------
 	- *** Before starting anything, check working copy status & pull latest from GitHub
-	- *** Before starting anything, activate virtual env, see below 
+	- *** Before starting anything, activate virtual env (mac only for now), see below 
 
 	- Continue at Reference link (below)
-		Description: 3.0 Coding attention mechanisms
+		Section 3.4.2 assignment, see "Exercise 3.1 Comparing SelfAttention_v1 and SelfAttention_v2"
 
 
 Reference:
 https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-3/
 
 NOTE: 
-	To activate virtual env use: 
+	To activate virtual env on mac use: 
 		mazerlodge@TheoVI LLMFromScratch % source ./bin/activate
 
 	To run current code file in VS Code on mac Fn + F5
